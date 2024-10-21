@@ -1,0 +1,248 @@
+#menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+#menu ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+#menu li{
+    padding-left: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.lista{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.listaboton{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.listaboton:hover{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    font-weight: 700;
+}
+
+.listaboton:active{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    color: red;
+    font-weight: 700;
+}
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 45pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 25pt;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.portada{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.encabezado{
+    margin: 30px;
+}
+
+#piedepagina dt{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#piedepagina dd{
+    font-family: 'Lato', sans-serif;
+}
+
+#piedepagina dl{
+    justify-content: center;
+}
+
+.columnasfooter{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.columnasfooter > div{
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: space-between;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.portadasn{
+    width: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.portadasn > div{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.portadat{
+    margin: 60px;
+    width: 400px;
+}
+
+#galeria{
+    width: 1200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+#galeria img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#galeria a{
+    display: block;
+}
+
+.boton{
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    color: white;
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.boton:hover{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    font-weight: 700;
+}
+
+.boton:active{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    color: red;
+    font-weight: 700;
+}
+
+.portadastaff{
+    width: 700px;
+    display: flex;
+    margin:60px;
+    align-items: center;
+    font-weight: 100;
+}
+
+#staff{
+    width: 1250px;
+    margin: 60px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#staff img{
+    margin: 5px;
+}
+
+.portadacontact{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+address{
+    width: 400px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+form{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+}
+
+.notfound{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    justify-content: center;
+}
